@@ -31,7 +31,7 @@ function showImageData(imageName, client){
 	  ]
 	}
 	var settings = {
-		url: 'https://vision.googleapis.com/v1/images:annotate?key=AIzaSyBbdLJcEoSgXvM7dsrv409bBr3n1oKdVOo',
+		url: 'https://vision.googleapis.com/v1/images:annotate?key=YOURANNOTATEKEY',
 		data: JSON.stringify(parameters),
 		type: 'POST',
 		contentType: 'application/json'
